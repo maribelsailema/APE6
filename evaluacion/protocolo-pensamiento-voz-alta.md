@@ -47,7 +47,7 @@ Para asegurar la validez metodológica y evitar interferencias, cada integrante 
        │                SOPORTE TÉCNICO (Sebastián)             │
        │  - Configura resolución (Móvil P01/P03; PC P02)        │
        │  - Gestiona software de grabación y navegador          │
-       │  - Restablece el prototipo a la pantalla 01_Inicio     │
+       │  - Restablece el prototipo a la vista de Inicio        │
        └────────────────────────────────────────────────────────┘
 ```
 
@@ -108,7 +108,7 @@ Para vencer la timidez inicial y practicar el monólogo exterior:
 > ### ☕ Consigna de Calentamiento (60 segundos)
 > *"Para practicar cómo pensar en voz alta, hagamos un ejercicio rápido. Imagina que vas a comprar un café en un mostrador físico tradicional. Cuéntame en voz alta paso a paso: ¿cómo le preguntarías a la persona que atiende qué opciones tienen, cómo decidirías qué tamaño pedir y qué harías si te dicen que se agotó el azúcar?"*
 
-Viviana modela la técnica si el participante duda: *"Exacto, así como dices: 'Miraría la pizarra de precios, preguntaría qué tipo de leche usan...'"*. Una vez comprobada la soltura verbal, Sebastián proyecta la pantalla `01_Inicio.png` de CaféU.
+Viviana modela la técnica si el participante duda: *"Exacto, así como dices: 'Miraría la pizarra de precios, preguntaría qué tipo de leche usan...'"*. Una vez comprobada la soltura verbal, Sebastián proyecta la pantalla de Inicio de CaféU.
 
 ---
 
@@ -148,17 +148,17 @@ Si el participante experimenta un bloqueo cognitivo por más de **15 segundos co
 
 Wilson centrará su observación cualitativa en los siguientes puntos clave de la interfaz de CaféU:
 
-1. **Pantalla 01_Inicio:** ¿El usuario identifica de inmediato el botón `Ver Menú ->` o intenta interactuar con los elementos estáticos de *"¿Cómo funciona?"* o el buscador?
-2. **Pantalla 02_Menu:**
+1. **Pantalla de Inicio (Onboarding y Acceso):** ¿El usuario identifica de inmediato el botón `Ver Menú ->` o intenta interactuar con los elementos estáticos de *"¿Cómo funciona?"* o el buscador?
+2. **Pantalla de Menú (Catálogo y Categorías):**
    - ¿Reconoce que los chips (*Bebidas calientes*, *Sánduches*, *Snacks*) son botones de filtrado?
    - ¿Detecta la barra flotante inferior del carrito (*"2 items · $4.25 | Ver mi pedido"*) o busca un icono en la cabecera superior?
-3. **Pantalla 03_Detalle_Producto:**
+3. **Pantalla de Detalle de Producto (Personalización):**
    - ¿Comprende que para personalizar debe tocar la tarjeta y no el botón directo de añadir?
    - ¿El campo de texto libre para notas especiales genera dudas?
-4. **Pantalla 04_Revisar_Pedido:**
+4. **Pantalla de Revisar Pedido (Gestión de Carrito y Transparencia):**
    - ¿Ubica con facilidad el enlace de texto *"Eliminar"* para quitar productos?
    - ¿Lee y comprende la nota *"Pago en caja: Paga al momento de retirar tu pedido"* o busca opciones para pagar con tarjeta?
-5. **Pantalla 05_Confirmacion:**
+5. **Pantalla de Confirmación (Feedback y Ticket):**
    - ¿Identifica claramente el código `#CU-104` como su identificador de retiro en barra?
    - ¿Nota la estimación de 5 a 10 minutos para gestionar su tiempo?
 
@@ -180,12 +180,12 @@ Moderadora: Viviana                            Observador: Wilson
 Responsable de Métricas: Alex                  Soporte Técnico: Sebastián
 Dispositivo: [ ] Móvil Físico (P01 / P03)      [ ] Computadora / Laptop (P02)
 Grabación: [ ] Autorizada en consentimiento    [ ] No autorizada
-Estado Inicial Verificado (Pantalla 01 vacía): [ ] Sí [ ] No
+Estado Inicial Verificado (Inicio vacío):      [ ] Sí [ ] No
 ----------------------------------------------------------------------------------------
 
 REGISTRO DE LAS SEIS TAREAS:
 ----------------------------------------------------------------------------------------
-T1: Consulta de catálogo y precio individual de bebida (01_Inicio -> 02_Menu)
+T1: Consulta de catálogo y precio individual de bebida (Inicio -> Menú)
 - Tiempo medido: ______ s (Meta: 30 s | Máx: 60 s)
 - Resultado: [ ] Sí (sin ayuda)   [ ] Con ayuda (pista)   [ ] No (falló/superó máx)
 - ¿Pidió repetir la consigna?: [ ] Sí  [ ] No
@@ -196,7 +196,7 @@ T1: Consulta de catálogo y precio individual de bebida (01_Inicio -> 02_Menu)
 - Heurística de Nielsen asociada: [ ] H1  [ ] H4  [ ] H8  [ ] Ninguna
 
 ----------------------------------------------------------------------------------------
-T2: Filtrado por categoría y selección de snack (02_Menu)
+T2: Filtrado por categoría y selección de snack (Menú)
 - Tiempo medido: ______ s (Meta: 30 s | Máx: 60 s)
 - Resultado: [ ] Sí (sin ayuda)   [ ] Con ayuda (pista)   [ ] No (falló/superó máx)
 - ¿Presionó el chip "Snacks" con facilidad?: [ ] Sí  [ ] No (hizo scroll vertical)
@@ -206,7 +206,7 @@ T2: Filtrado por categoría y selección de snack (02_Menu)
 - Heurística de Nielsen asociada: [ ] H4  [ ] H7  [ ] H8  [ ] Ninguna
 
 ----------------------------------------------------------------------------------------
-T3: Configuración y personalización con instrucciones especiales (02_Menu -> 03_Detalle)
+T3: Configuración y personalización con instrucciones especiales (Menú -> Detalle)
 - Tiempo medido: ______ s (Meta: 45 s | Máx: 90 s)
 - Resultado: [ ] Sí (sin ayuda)   [ ] Con ayuda (pista)   [ ] No (falló/superó máx)
 - ¿Tocó la tarjeta para abrir detalle o intentó añadir rápido?: __________________________
@@ -216,7 +216,7 @@ T3: Configuración y personalización con instrucciones especiales (02_Menu -> 0
 - Heurística de Nielsen asociada: [ ] H2  [ ] H6  [ ] H8  [ ] Ninguna
 
 ----------------------------------------------------------------------------------------
-T4: Sumar alimento al pedido y comprobar desglose de cuenta (02_Menu -> 04_Pedido)
+T4: Sumar alimento al pedido y comprobar desglose de cuenta (Menú -> Revisar Pedido)
 - Tiempo medido: ______ s (Meta: 45 s | Máx: 90 s)
 - Resultado: [ ] Sí (sin ayuda)   [ ] Con ayuda (pista)   [ ] No (falló/superó máx)
 - ¿Detectó de inmediato la barra flotante inferior del carrito?: [ ] Sí  [ ] No
@@ -226,7 +226,7 @@ T4: Sumar alimento al pedido y comprobar desglose de cuenta (02_Menu -> 04_Pedid
 - Heurística de Nielsen asociada: [ ] H1  [ ] H4  [ ] H7  [ ] Ninguna
 
 ----------------------------------------------------------------------------------------
-T5: Modificación de orden / Eliminación de ítem en el carrito (04_Pedido)
+T5: Modificación de orden / Eliminación de ítem en el carrito (Revisar Pedido)
 - Tiempo medido: ______ s (Meta: 30 s | Máx: 60 s)
 - Resultado: [ ] Sí (sin ayuda)   [ ] Con ayuda (pista)   [ ] No (falló/superó máx)
 - Método de eliminación usado: [ ] Enlace "Eliminar"   [ ] Stepper [-] hasta cero
@@ -236,7 +236,7 @@ T5: Modificación de orden / Eliminación de ítem en el carrito (04_Pedido)
 - Heurística de Nielsen asociada: [ ] H3  [ ] H5  [ ] H6  [ ] Ninguna
 
 ----------------------------------------------------------------------------------------
-T6: Confirmación del pedido y verificación de entrega y pago (04_Pedido -> 05_Confirm)
+T6: Confirmación del pedido y verificación de entrega y pago (Revisar Pedido -> Confirmación)
 - Tiempo medido: ______ s (Meta: 45 s | Máx: 90 s)
 - Resultado: [ ] Sí (sin ayuda)   [ ] Con ayuda (pista)   [ ] No (falló/superó máx)
 - ¿Identificó el número #CU-104?: [ ] Sí  [ ] No
