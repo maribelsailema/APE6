@@ -1,155 +1,166 @@
 
-# 📋 Plan de evaluación de usabilidad — Aula Abierta
+# Plan de Evaluación de Usabilidad del Prototipo CaféU
 
-## 1. Datos generales
+## 1. Información general
 
 | Campo | Información |
 |---|---|
-| Institución | Universidad Técnica de Ambato |
+| Universidad | Universidad Técnica de Ambato |
 | Carrera | Ingeniería de Software |
 | Semestre | Quinto |
 | Asignatura | Interacción Humano-Computador |
-| Práctica | APE 6 — Fase 1 |
-| Prototipo | Aula Abierta |
-| Modalidad | Grupal |
-| Duración académica estimada | 2 horas |
+| Actividad | APE 6 – Fase 1 |
+| Prototipo | CaféU |
 | Docente | Ing. José Rubén Caiza Caizabuano, Mg. |
-| Responsable del plan | Viviana |
-| Estado | Planificación |
+| Responsable | Viviana |
+| Modalidad | Trabajo grupal |
+| Tiempo académico | 2 horas |
 
-## 2. Descripción del prototipo
+## 2. Introducción
 
-Aula Abierta es una interfaz web responsive para consultar información de talleres académicos y gestionar reservas.
+La usabilidad es un aspecto importante en el desarrollo de interfaces, ya que permite conocer si los usuarios pueden cumplir sus objetivos sin dificultades innecesarias.
 
-El prototipo presenta la información de un taller, incluyendo nombre, horario y laboratorio, además de un panel denominado «Mi reserva».
+En el caso de CaféU, se busca que los estudiantes universitarios puedan realizar pedidos de cafetería de manera sencilla, sin necesidad de comunicarse verbalmente con el personal.
 
-La interacción contempla tres estados:
+Durante los APE 4 y 5 se trabajó en el análisis y rediseño del prototipo, considerando problemas relacionados con la navegación, la claridad de los botones y la confirmación de pedidos.
 
-- Disponible: el estudiante puede reservar.
-- Confirmada: la reserva se encuentra activa.
-- Cancelada: la reserva fue anulada.
+En esta nueva práctica se planifica una evaluación de usabilidad que permitirá comprobar la eficacia, eficiencia y satisfacción de los usuarios al interactuar con CaféU.
 
-La interfaz fue planteada con HTML5 semántico, CSS Mobile-First y JavaScript.
+## 3. Definición del prototipo
 
-En pantallas móviles se utiliza una columna y, desde un punto de corte de 48rem, una distribución de dos columnas.
+### 3.1 Descripción del sistema
 
-El prototipo se evalúa como una interfaz de demostración, sin asumir que cuenta con autenticación, base de datos o persistencia de reservas.
+CaféU es una interfaz web que permite consultar productos de cafetería y realizar un pedido.
 
-## 3. Usuarios objetivo
+El usuario puede seleccionar productos, revisar los elementos agregados, modificar el pedido y confirmar la compra.
 
-Los usuarios objetivo son estudiantes universitarios que desean consultar talleres y gestionar una reserva.
+El sistema presenta un resumen del pedido y un mensaje de confirmación al finalizar.
 
-Se consideran estudiantes con diferentes niveles de experiencia utilizando sitios web, tanto desde teléfonos móviles como desde computadoras.
+### 3.2 Usuarios objetivo
 
-### Necesidades
+Los principales usuarios son estudiantes universitarios que desean comprar productos de cafetería de manera rápida y sencilla.
 
-- Identificar el taller disponible.
-- Consultar cuándo se realiza.
-- Identificar dónde se desarrolla.
-- Confirmar una reserva.
-- Comprobar su estado.
-- Cancelar cuando sea necesario.
+Se consideran usuarios con diferentes niveles de experiencia utilizando aplicaciones web.
 
-## 4. Contexto de utilización
+### 3.3 Contexto de utilización
 
-### Entorno físico
+**Contexto físico:** cafetería universitaria, aulas o espacios donde el estudiante pueda acceder al prototipo.
 
-La evaluación se realizará en un espacio tranquilo, con iluminación adecuada, sin interrupciones y con conexión local o acceso estable al prototipo.
+**Contexto tecnológico:** navegador web desde una computadora o dispositivo móvil.
 
-### Entorno tecnológico
+**Contexto social:** estudiantes que desean realizar pedidos sin comunicarse verbalmente con el personal de cafetería.
 
-Se utilizará un navegador web moderno en un equipo de escritorio o móvil.
+**Contexto de uso:** consulta de productos, selección, revisión, modificación y confirmación de pedidos.
 
-El prototipo deberá estar disponible antes de iniciar cada sesión.
+### 3.4 Flujo principal
 
-### Entorno social
+```text
+Inicio
+  ↓
+Menú de productos
+  ↓
+Selección de productos
+  ↓
+Revisión del pedido
+  ↓
+¿El pedido es correcto?
+  ├── No → Modificar pedido → Revisar nuevamente
+  └── Sí → Confirmar pedido
+                    ↓
+           Mensaje de confirmación
+```
 
-Las tareas representan situaciones académicas habituales en las que un estudiante consulta información y decide participar en un taller.
+## 4. Pregunta de evaluación
 
-### Condiciones de evaluación
+**¿En qué medida los estudiantes universitarios pueden seleccionar productos, revisar, modificar y confirmar un pedido en CaféU de manera eficaz, eficiente y satisfactoria, sin recibir instrucciones directas sobre cómo utilizar la interfaz?**
 
-- El participante no recibirá instrucciones sobre qué controles presionar.
-- Se presentarán las tareas una por una.
-- El moderador mantendrá una actitud neutral.
-- Se permitirá que el participante piense en voz alta.
-- Se registrarán dificultades sin interrumpir innecesariamente.
+Esta pregunta contempla tres dimensiones:
 
-## 5. Pregunta de evaluación
+### Eficacia
 
-**¿En qué medida los estudiantes universitarios pueden consultar la información de un taller, confirmar y cancelar una reserva en Aula Abierta de manera eficaz, eficiente y satisfactoria, utilizando la interfaz sin instrucciones sobre los controles?**
+Determinar si el usuario puede completar correctamente las tareas relacionadas con el pedido.
 
-### Dimensiones
+### Eficiencia
 
-**Eficacia:** determinar si las tareas se completan correctamente.
+Conocer cuánto tiempo necesita el usuario para realizar las tareas y qué dificultades encuentra durante el proceso.
 
-**Eficiencia:** medir el tiempo empleado para completar cada tarea.
+### Satisfacción
 
-**Satisfacción:** conocer la percepción del usuario mediante el cuestionario SUS.
+Identificar la percepción del usuario respecto a la facilidad de uso mediante el cuestionario SUS.
 
-## 6. Objetivo general
+## 5. Objetivo general
 
-Planificar una evaluación de usabilidad del prototipo Aula Abierta mediante inspección heurística y pruebas con usuarios, para comprobar la eficacia, eficiencia y satisfacción durante la consulta y gestión de reservas.
+Planificar una evaluación de usabilidad del prototipo CaféU, aplicando los principios de ISO 9241-11, las heurísticas de Nielsen y pruebas con pensamiento en voz alta.
 
-## 7. Objetivos específicos
+## 6. Objetivos específicos
 
-1. Definir el contexto de uso del prototipo.
-2. Preparar una inspección basada en las diez heurísticas de Nielsen.
-3. Diseñar una prueba con pensamiento en voz alta.
-4. Seleccionar tres participantes externos al equipo.
-5. Establecer seis tareas con tiempos y criterios de éxito.
-6. Definir métricas e instrumentos de recolección.
-7. Preparar el cuestionario SUS.
-8. Garantizar el tratamiento ético de los participantes.
-9. Establecer criterios de preparación para la Fase 2.
+1. Definir el contexto de utilización del prototipo.
+2. Identificar el perfil de los usuarios.
+3. Preparar una evaluación heurística.
+4. Diseñar una prueba con pensamiento en voz alta.
+5. Establecer seis tareas representativas.
+6. Definir métricas de eficacia, eficiencia y satisfacción.
+7. Preparar instrumentos de observación y cuestionario SUS.
+8. Garantizar la participación voluntaria y confidencial.
+9. Establecer criterios para la ejecución posterior.
 
-## 8. Fundamento de ISO 9241-11
+## 7. Aplicación de ISO 9241-11
 
-La norma ISO 9241-11:2018 define la usabilidad en relación con usuarios, objetivos y contextos de uso específicos.
+La norma ISO 9241-11:2018 establece un marco para comprender la usabilidad en relación con usuarios, objetivos y contextos de uso específicos.
 
-Para este proyecto se consideran tres dimensiones principales.
+Para CaféU se consideran:
 
-| Dimensión | Aplicación en Aula Abierta |
+| Dimensión | Aplicación |
 |---|---|
-| Eficacia | Completar correctamente las seis tareas |
-| Eficiencia | Tiempo y recursos utilizados |
-| Satisfacción | Percepción de facilidad y comodidad |
+| Eficacia | Completar correctamente un pedido |
+| Eficiencia | Tiempo requerido y dificultades |
+| Satisfacción | Opinión del usuario mediante SUS |
 
-La evaluación se desarrollará en un contexto definido para que los resultados puedan interpretarse de manera coherente.
+### Ejemplo
 
-## 9. Método 1: Evaluación heurística
+Se plantea que un estudiante realice el siguiente pedido:
 
-Se utilizarán las diez heurísticas de Nielsen como criterios de inspección.
+- Un café de $1,50.
+- Un sánduche de $2,75.
 
-| N.º | Heurística | Aspecto que se revisará |
+El total correcto es de $4,25.
+
+Se evaluará si el estudiante logra seleccionar los productos, verificar el total y confirmar el pedido sin recibir ayuda directa.
+
+## 8. Método 1: Evaluación heurística
+
+La evaluación heurística permitirá identificar posibles problemas de usabilidad mediante las diez heurísticas de Nielsen.
+
+| N.º | Heurística | Aplicación en CaféU |
 |---|---|---|
-| 1 | Visibilidad del estado | Mensajes de confirmación y cancelación |
-| 2 | Relación con el mundo real | Lenguaje comprensible para estudiantes |
-| 3 | Control y libertad | Posibilidad de cancelar |
-| 4 | Consistencia y estándares | Etiquetas, controles y estilos |
-| 5 | Prevención de errores | Bloqueo de reservas duplicadas |
-| 6 | Reconocimiento antes que recuerdo | Información visible del taller |
-| 7 | Flexibilidad y eficiencia | Facilidad de completar las acciones |
-| 8 | Diseño minimalista | Jerarquía y claridad del contenido |
-| 9 | Recuperación de errores | Información y alternativas ante fallos |
-| 10 | Ayuda y documentación | Orientaciones cuando sean necesarias |
+| 1 | Visibilidad del estado del sistema | Mostrar productos agregados y confirmación |
+| 2 | Relación con el mundo real | Utilizar nombres y precios comprensibles |
+| 3 | Control y libertad del usuario | Permitir editar el pedido |
+| 4 | Consistencia y estándares | Mantener estilos y controles coherentes |
+| 5 | Prevención de errores | Evitar confirmaciones incorrectas |
+| 6 | Reconocimiento antes que recuerdo | Mantener visible el resumen |
+| 7 | Flexibilidad y eficiencia | Facilitar la selección y modificación |
+| 8 | Diseño estético y minimalista | Mostrar información relevante |
+| 9 | Reconocer y recuperar errores | Informar errores y permitir corrección |
+| 10 | Ayuda y documentación | Mostrar indicaciones cuando sean necesarias |
 
-### Procedimiento planificado
+### Procedimiento
 
-El evaluador recorrerá la interfaz y examinará cada heurística.
+El evaluador revisará las pantallas principales del prototipo y registrará los problemas encontrados.
 
-Los problemas se registrarán indicando:
+Cada hallazgo incluirá:
 
-- Código del hallazgo.
+- Código del problema.
+- Pantalla donde ocurre.
 - Heurística afectada.
 - Descripción.
-- Ubicación.
-- Evidencia.
 - Severidad.
+- Evidencia.
 - Recomendación.
 
 ### Escala de severidad
 
-| Valor | Significado |
+| Nivel | Descripción |
 |---|---|
 | 0 | No representa un problema |
 | 1 | Problema cosmético |
@@ -157,196 +168,195 @@ Los problemas se registrarán indicando:
 | 3 | Problema importante |
 | 4 | Problema crítico |
 
-## 10. Método 2: Prueba con pensamiento en voz alta
+## 9. Método 2: Pensamiento en voz alta
 
-Se utilizará la técnica de pensamiento en voz alta para conocer qué interpreta el estudiante mientras realiza las tareas.
+La prueba con usuarios utilizará la técnica de pensamiento en voz alta.
 
-El participante deberá expresar lo que busca, lo que espera que ocurra y las dudas que experimente.
+Se solicitará al participante que exprese lo que piensa mientras realiza las tareas.
 
-### Instrucción inicial del moderador
+El propósito es conocer cómo interpreta la interfaz y qué dificultades encuentra.
 
-"Durante esta actividad te presentaré seis situaciones relacionadas con Aula Abierta. Intenta resolverlas como lo harías normalmente. Mientras interactúas, expresa en voz alta lo que estás pensando. No estamos evaluando tus conocimientos, sino la facilidad de uso de la interfaz. Puedes detenerte cuando lo desees."
+### Instrucciones del moderador
 
-### Intervenciones permitidas
+"Vas a utilizar el prototipo CaféU para realizar algunas actividades relacionadas con un pedido de cafetería. Mientras avanzas, comenta lo que estás pensando, qué esperas encontrar y qué dudas tienes. No estamos evaluando tus capacidades, sino la facilidad de uso del sistema."
 
-- ¿Qué estás pensando ahora?
+### Preguntas neutrales permitidas
+
+- ¿Qué estás pensando en este momento?
 - ¿Qué esperabas que ocurriera?
-- ¿Qué información estás buscando?
-- ¿Puedes seguir contándome lo que piensas?
+- ¿Qué estás buscando?
+- ¿Puedes contarme qué estás intentando hacer?
 
-### Intervenciones que deben evitarse
+### Indicaciones que deben evitarse
 
-- Indicar dónde se encuentra una opción.
-- Decir qué botón debe utilizarse.
-- Corregir inmediatamente los errores.
-- Sugerir la respuesta correcta.
-- Presionar al participante para completar la tarea.
+- Decir qué botón presionar.
+- Mostrar dónde se encuentra una función.
+- Corregir inmediatamente al participante.
+- Indicar cuál es la respuesta correcta.
 
-## 11. Participantes
+## 10. Participantes
 
-Se seleccionarán tres estudiantes universitarios que no formen parte del grupo desarrollador.
+Se seleccionarán tres estudiantes universitarios ajenos al equipo desarrollador.
 
-Los participantes se identificarán mediante códigos:
+| Código | Perfil previsto | Dispositivo |
+|---|---|---|
+| P01 | Estudiante con experiencia digital básica | Móvil |
+| P02 | Estudiante con experiencia intermedia | Computadora |
+| P03 | Estudiante que utiliza aplicaciones web habitualmente | Móvil |
 
-- P01
-- P02
-- P03
+Los perfiles son criterios de reclutamiento, no personas ya seleccionadas.
 
-No se publicarán nombres, números de identificación, correos personales ni otros datos que permitan reconocerlos.
-
-### Criterios de selección
+### Criterios de inclusión
 
 - Ser estudiante universitario.
 - No pertenecer al grupo desarrollador.
-- No haber participado en la implementación del prototipo.
-- Aceptar voluntariamente el consentimiento informado.
+- Aceptar voluntariamente participar.
 - Poder interactuar con un navegador web.
 
-No se exigirá experiencia avanzada en tecnología.
+### Criterios de exclusión
 
-## 12. Tareas de evaluación
+- Haber desarrollado el prototipo.
+- No aceptar participar.
+- Haber recibido previamente las respuestas de las tareas.
 
-Se utilizarán seis tareas relacionadas con las funciones disponibles.
+## 11. Diseño general de las seis tareas
 
-| ID | Objetivo |
-|---|---|
-| T01 | Identificar el nombre del taller |
-| T02 | Consultar el horario |
-| T03 | Identificar el laboratorio |
-| T04 | Confirmar una reserva |
-| T05 | Comprobar el estado de la reserva |
-| T06 | Cancelar la reserva |
+Las tareas se formularán mediante situaciones reales.
 
-Las instrucciones completas, tiempos objetivo, tiempos máximos, respuestas correctas y criterios de éxito se registrarán en `evaluacion/matriz-tareas.md`.
+| ID | Situación de evaluación | Resultado esperado |
+|---|---|---|
+| T01 | Conocer qué productos se ofrecen | Identificar el menú |
+| T02 | Elegir una bebida para el pedido | Seleccionar un café |
+| T03 | Completar el pedido con un alimento | Agregar un sánduche |
+| T04 | Comprobar el costo del pedido | Identificar $4,25 |
+| T05 | Corregir un pedido antes de comprar | Modificar el contenido |
+| T06 | Finalizar la compra | Confirmar y reconocer el resultado |
 
-## 13. Métricas
+La matriz completa incluirá instrucciones, tiempos objetivo, tiempos máximos y criterios de éxito.
 
-### Eficacia
+## 12. Métricas de usabilidad
 
-La tasa de éxito se calculará como:
+### 12.1 Tasa de éxito
 
-Tasa de éxito (%) = (tareas completadas correctamente / tareas intentadas) × 100
+Se calculará mediante:
 
-Se registrará el resultado de cada tarea como:
+```text
+Tasa de éxito (%) =
+(Tareas completadas correctamente / Tareas intentadas) × 100
+```
 
-- Éxito.
-- Fallo.
-- No completada dentro del tiempo máximo.
+### 12.2 Tiempo por tarea
 
-### Eficiencia
+Se registrará el tiempo desde que el participante inicia una tarea hasta que la completa o alcanza el límite establecido.
 
-Se registrará la duración de cada tarea en segundos.
+### 12.3 Errores críticos
 
-Tiempo = instante de finalización − instante de inicio.
+Se considerarán errores críticos aquellos que impidan completar la tarea o generen un pedido incorrecto que no sea corregido.
 
-También se anotarán solicitudes de ayuda y dificultades que afecten el desarrollo de la tarea.
+### 12.4 Errores no críticos
 
-### Errores
+Serán dificultades recuperables, como seleccionar una opción equivocada y corregirla posteriormente.
 
-**Error crítico:** impide completar una tarea o produce un resultado incorrecto importante.
+### 12.5 Satisfacción
 
-**Error no crítico:** provoca una dificultad recuperable sin impedir la finalización.
+Se aplicará el cuestionario SUS de diez afirmaciones, con respuestas de 1 a 5.
 
-### Satisfacción
+El puntaje se calculará después de completar la sesión.
 
-Se utilizará el cuestionario SUS, compuesto por diez afirmaciones con una escala de respuesta de 1 a 5.
-
-La puntuación se calculará individualmente después de finalizar las tareas.
-
-## 14. Instrumentos
+## 13. Instrumentos
 
 | Instrumento | Finalidad |
 |---|---|
 | Consentimiento informado | Garantizar participación voluntaria |
-| Matriz de tareas | Estandarizar situaciones y criterios |
-| Matriz heurística | Registrar problemas de diseño |
-| Hoja de observación | Registrar tiempos, errores y ayudas |
-| Cuestionario SUS | Medir satisfacción percibida |
+| Matriz de seis tareas | Establecer instrucciones y criterios |
+| Matriz heurística | Registrar problemas de usabilidad |
+| Hoja de observación | Registrar tiempos, errores y dificultades |
+| Cuestionario SUS | Evaluar satisfacción |
 | Criterios de validación | Comprobar preparación del protocolo |
 
-## 15. Aspectos éticos
+## 14. Aspectos éticos
 
-La evaluación respetará los siguientes principios:
+La evaluación se desarrollará respetando:
 
-**Participación voluntaria:** ninguna persona estará obligada a participar.
+**Participación voluntaria:** cada estudiante decidirá si desea participar.
 
-**Consentimiento informado:** se explicará el propósito, duración, actividades y tratamiento de la información.
+**Confidencialidad:** la información recopilada se utilizará exclusivamente para fines académicos.
 
-**Anonimato en los resultados:** los registros publicados utilizarán códigos.
+**Anonimato:** los resultados se identificarán mediante códigos.
 
-**Confidencialidad:** los documentos que permitan identificar a los participantes no se publicarán en GitHub.
+**Derecho a retirarse:** los participantes podrán abandonar la evaluación sin consecuencias.
 
-**Derecho a retirarse:** los participantes podrán finalizar su participación sin consecuencias.
+**Protección de información:** no se publicarán nombres, firmas ni datos personales en GitHub.
 
-**Minimización de datos:** se recogerá únicamente información necesaria para evaluar la interfaz.
+No se realizarán grabaciones identificables sin autorización adicional.
 
-**Sin grabación por defecto:** no se realizarán grabaciones de voz, vídeo o pantalla identificables sin autorización específica.
+## 15. Asignación de roles
 
-## 16. Asignación de roles
-
-| Integrante | Rol | Función |
+| Integrante | Rol | Responsabilidad |
 |---|---|---|
-| Viviana | Moderadora | Presentar tareas y mantener neutralidad |
-| Wilson | Observador | Registrar comportamientos y dificultades |
-| Sebastián | Soporte técnico | Preparar navegador y prototipo |
-| Alex | Responsable de métricas | Registrar tiempos, éxito y errores |
+| Viviana | Moderadora | Explicar las tareas y dirigir la sesión |
+| Wilson | Observador | Registrar dificultades y comportamientos |
+| Sebastián | Soporte técnico | Preparar el prototipo y dispositivos |
+| Alex | Responsable de métricas | Registrar tiempos, errores y SUS |
 
-## 17. Secuencia de una sesión de pilotaje
+## 16. Cronograma de evaluación
 
-| Etapa | Duración estimada |
+Se propone una duración aproximada de 25 minutos por participante.
+
+| Actividad | Tiempo |
 |---|---:|
-| Bienvenida y explicación | 3 min |
-| Consentimiento informado | 3 min |
-| Introducción al pensamiento en voz alta | 2 min |
+| Bienvenida | 3 min |
+| Consentimiento | 3 min |
+| Explicación de pensamiento en voz alta | 2 min |
 | Ejecución de seis tareas | 12 min |
 | Cuestionario SUS | 4 min |
-| Cierre y agradecimiento | 1 min |
-| **Total estimado** | **25 min** |
+| Cierre | 1 min |
+| **Total** | **25 min** |
 
-Las duraciones son objetivos de planificación, no tiempos observados.
+Para tres participantes se estima un total de 75 minutos de sesiones individuales, sin incluir preparación y organización.
 
-## 18. Criterios de preparación del protocolo
+## 17. Criterios de validación
 
-El protocolo estará preparado para pasar a la Fase 2 cuando:
+El protocolo estará preparado para la Fase 2 cuando:
 
-1. El prototipo pueda abrirse sin errores que impidan las tareas.
-2. Las seis tareas correspondan a funciones existentes.
+1. El prototipo pueda abrirse correctamente.
+2. Las seis tareas correspondan a funciones disponibles.
 3. Cada tarea tenga instrucciones neutrales.
-4. Se hayan definido tiempos y criterios de éxito.
-5. Exista una matriz para las diez heurísticas.
-6. La hoja de observación permita registrar resultados.
-7. El SUS contenga sus diez afirmaciones.
-8. El consentimiento esté disponible.
-9. Los cuatro roles estén definidos.
-10. Los tres participantes sean externos al equipo y acepten participar antes de la sesión.
-11. Se disponga de un procedimiento para detener o reprogramar una prueba ante fallos técnicos.
+4. Se definan tiempos y criterios de éxito.
+5. Se disponga de la matriz de Nielsen.
+6. Exista una hoja de observación.
+7. El cuestionario SUS incluya diez afirmaciones.
+8. Se disponga del consentimiento informado.
+9. Los cuatro roles estén asignados.
+10. Se hayan previsto tres participantes externos al grupo.
+11. Se establezca cómo actuar ante problemas técnicos.
 12. La documentación esté organizada en GitHub.
 
-## 19. Resultados esperados
+## 18. Resultados esperados
 
-Se espera que la aplicación posterior del protocolo permita identificar:
+Se espera que la aplicación posterior de las pruebas permita identificar:
 
-- Tareas que presentan mayores dificultades.
-- Errores frecuentes.
-- Diferencias en los tiempos de realización.
-- Problemas de comprensión.
-- Aspectos visuales o funcionales que requieren mejora.
-- Percepción general de usabilidad mediante SUS.
+- Dificultades al seleccionar productos.
+- Problemas para revisar y modificar pedidos.
+- Errores al interpretar precios.
+- Dudas al confirmar la compra.
+- Tiempo necesario para completar las tareas.
+- Nivel de satisfacción percibida.
 
-En esta fase no se presentan resultados de usuarios, ya que la evaluación todavía no ha sido ejecutada.
+Estos resultados se obtendrán en la Fase 2.
 
-## 20. Conclusión
+## 19. Conclusión
 
-El plan de evaluación de Aula Abierta integra una inspección heurística y una prueba con usuarios para examinar la interfaz desde dos perspectivas complementarias.
+El plan de evaluación de CaféU establece una metodología para analizar la facilidad de uso del prototipo mediante inspección heurística y pruebas con usuarios.
 
-Las heurísticas permitirán identificar posibles problemas de diseño, mientras que el pensamiento en voz alta permitirá conocer las dificultades experimentadas durante las tareas.
+La combinación de ISO 9241-11, las heurísticas de Nielsen y el pensamiento en voz alta permitirá evaluar tanto los aspectos técnicos como la experiencia de los estudiantes.
 
-La definición de métricas, instrumentos y medidas éticas proporciona una base organizada para ejecutar la evaluación durante la Fase 2.
+La planificación de participantes, roles, métricas e instrumentos proporciona una base organizada para desarrollar la evaluación durante la siguiente fase.
 
-## 21. Referencias
+## 20. Referencias
 
-[1] ISO, ISO 9241-11:2018, Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts, 2018.
+[1] ISO, *ISO 9241-11:2018. Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts*, 2018.
 
-[2] J. Nielsen, "10 Usability Heuristics for User Interface Design," Nielsen Norman Group, 1994.
+[2] J. Nielsen, “10 Usability Heuristics for User Interface Design,” Nielsen Norman Group, 1994.
 
-[3] J. Brooke, "SUS: A Quick and Dirty Usability Scale," en Usability Evaluation in Industry, 1996.
+[3] J. Brooke, “SUS: A Quick and Dirty Usability Scale,” en *Usability Evaluation in Industry*, 1996.
