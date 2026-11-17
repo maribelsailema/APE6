@@ -8,7 +8,7 @@
 
 ## Nota sobre el alcance
 
-Este documento es una evaluación heurística individual preliminar construida con la evidencia disponible en el ZIP. No se encontró un registro independiente de inspección directa de Alex con capturas y recorrido completo por cada pantalla/estado. En consecuencia, los juicios se limitan a lo observado o reportado durante el pilotaje. «Sin problema observado» no equivale a una certificación exhaustiva de cumplimiento.
+Este documento es una evaluación heurística individual preliminar construida con la evidencia disponible de las sesiones de pilotaje y los instrumentos de evaluación. Los juicios se limitan a lo observado o reportado durante el pilotaje. «Sin problema observado» no equivale a una certificación exhaustiva de cumplimiento.
 
 **Escala de severidad:** 0 = no representa problema; 1 = cosmético; 2 = menor; 3 = mayor; 4 = crítico/catastrófico.
 

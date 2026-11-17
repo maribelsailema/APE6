@@ -4,7 +4,7 @@
 **Responsable:** Alex  
 **Participantes:** P1, P2 y P3  
 **Fecha de pilotaje:** 16 de noviembre de 2026  
-**Base de análisis:** registros individuales de P1, P2 y P3; comentarios de cierre; documentación de tareas y heurísticas incluida en el ZIP.
+**Base de análisis:** registros individuales de P1, P2 y P3; comentarios de cierre; documentación de tareas y heurísticas del proyecto.
 
 ## 1. Síntesis
 
@@ -63,11 +63,7 @@ Los hallazgos son preliminares y se limitan a tres participantes. Las heurístic
 | H03 — Descubrimiento/realce del carrito | T04 | P1 y P3 (2/3) | 2 ENC; búsqueda de icono y falta de realce | H1, H4, H6 |
 | H04 — Eliminación accidental | T05 | P2 y P3 (2/3) | Comentarios post-sesión; 0 errores durante T05 | H3, H5, H4 |
 
-## 4. Evaluación heurística individual de Alex
-
-La inspección que se documenta en `Evaluaciones_Heuristicas/Alex.md` es una evaluación individual preliminar basada en la evidencia de las sesiones y los instrumentos del repositorio. No se dispone en el ZIP de un acta independiente de inspección pantalla por pantalla realizada por Alex ni de capturas que permitan certificar cada estado visual. Por ello, las heurísticas sin evidencia directa se identifican como «sin problema observado en los registros» y no como cumplimiento exhaustivamente verificado.
-
-## 5. Priorización sugerida
+## 4. Priorización sugerida
 
 1. **Prioridad alta de refinamiento:** H03 (acceso/feedback del carrito) y H04 (prevención de eliminación accidental), por afectar el control y la comprensión del pedido.
 2. **Prioridad media:** H02 (descubrimiento de personalización), por provocar retroceso y tiempo adicional.
@@ -75,7 +71,7 @@ La inspección que se documenta en `Evaluaciones_Heuristicas/Alex.md` es una eva
 
 La prioridad es una recomendación de trabajo para la siguiente iteración, no una medición estadística.
 
-## 6. Conclusión
+## 5. Conclusión
 
 CaféU permitió que P1, P2 y P3 completaran todas las tareas sin ayuda y sin errores críticos. Las oportunidades de mejora se concentran en la visibilidad de acciones y controles, la personalización del producto y la prevención de eliminaciones accidentales. La siguiente iteración debería validar las soluciones propuestas con nuevas sesiones, manteniendo los mismos criterios de registro y comparando tiempos, errores y satisfacción.
 

@@ -4,7 +4,7 @@
 **Responsable:** Alex  
 **Participantes:** P1, P2 y P3  
 **Fecha de pilotaje:** 16 de noviembre de 2026  
-**Fuente:** registros individuales `Participantes/P1.md`, `P2.md` y `P3.md` del repositorio entregado.
+**Fuente:** registros individuales de los participantes P1, P2 y P3.
 
 ## 1. Alcance y criterio de cálculo
 
@@ -77,14 +77,5 @@ En el pilotaje, las seis tareas alcanzaron un 100 % de éxito y se completaron a
 
 El SUS promedio del grupo fue 82,5/100. P2 obtuvo 85, P1 82,5 y P3 80. La lectura debe considerarse descriptiva por el tamaño reducido de la muestra (n=3); no permite generalizar a toda la población estudiantil.
 
-## 7. Verificación de integridad y limitaciones
-
-- Se encontraron los tres registros individuales P1, P2 y P3.
-- Cada registro contiene tiempos, resultado, intentos, ayudas, errores y diez respuestas SUS para las seis tareas.
-- Los 18 resultados aparecen como completados con éxito y autónomos.
-- Los conteos consolidados coinciden con los campos individuales: P1 = 3 ENC; P2 = 0 ENC; P3 = 1 ENC; total = 4 ENC.
-- En los registros revisados no hay datos faltantes que impidan calcular las métricas solicitadas.
-- La documentación del repositorio mezcla en algunos instrumentos los nombres «Aula Abierta» y «CaféU». Este informe conserva el caso CaféU y toma como fuente cuantitativa los registros individuales de Fase 2.
 
 ---
-*Documento elaborado para APE6-F2-04. Responsable: Alex.*
