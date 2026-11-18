@@ -1,509 +1,413 @@
 # ☕ CaféU | APE 6 – Evaluación de Usabilidad
 
-### 🎓 Universidad Técnica de Ambato | FISEI | Ingeniería de Software
+**Universidad Técnica de Ambato · FISEI · Ingeniería de Software**
 
-> **Asignatura:** Interacción Humano-Computador (IHC)  
-> **Semestre:** Quinto semestre  
-> **Actividad:** APE 6 – Fases 1 y 2  
-> **Proyecto:** CaféU – Sistema de pedidos para cafetería universitaria  
-> **Docente:** Ing. José Rubén Caiza Caizabuano, Mg.  
-> **Modalidad:** Trabajo grupal
+**Asignatura:** Interacción Humano-Computador
 
----
+**Docente:** Ing. José Rubén Caiza Caizabuano, Mg.
 
-## 📖 1. Descripción del proyecto
+**Proyecto:** CaféU – Sistema de pedidos para cafetería universitaria
 
-**CaféU** es un prototipo de aplicación web diseñado para facilitar
-la compra de productos de una cafetería universitaria.
-
-El sistema está dirigido a estudiantes que disponen de poco tiempo
-durante sus descansos y necesitan realizar pedidos de forma rápida,
-comprensible y sin explicar verbalmente cada producto mientras
-esperan en una fila.
-
-La interfaz permite:
-
-- 📋 Consultar el menú de productos disponibles.
-- ☕ Seleccionar bebidas y alimentos.
-- ✏️ Personalizar productos mediante instrucciones especiales.
-- 🛒 Revisar y modificar el pedido.
-- 💵 Consultar el importe total.
-- ✅ Confirmar la compra.
-- 🎟️ Obtener un comprobante con información para retirar el pedido.
-
-El prototipo fue trabajado previamente durante los APE 4 y 5.
-
-En el **APE 6** se planificó y ejecutó un pilotaje de usabilidad
-para conocer cómo interactúan los estudiantes con la interfaz.
+**Recursos:** [Prototipo interactivo](https://www.figma.com/proto/mmnzX5MbN4kv4IhYOqlQR8/cafeU_prototipo?node-id=3-1700&p=f&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A1700)
 
 ---
 
-## 🎯 2. Objetivo general
+## 1. Propósito de este documento
 
-Evaluar la usabilidad del prototipo CaféU mediante la planificación
-y aplicación de pruebas con usuarios, considerando las dimensiones
-de eficacia, eficiencia y satisfacción de ISO 9241-11, las
-heurísticas de Nielsen y el pensamiento en voz alta.
+Este README reúne el trabajo completo realizado en el proyecto **CaféU** durante
+las cuatro fases del APE 6:
+
+1. planificación de la evaluación;
+2. ejecución del pilotaje;
+3. ajustes y evaluación heurística;
+4. consolidación, triangulación y propuestas de mejora.
+
+Los documentos contenidos en este repositorio conservan las evidencias,
+instrumentos, registros individuales y resultados. Las conclusiones globales
+deben distinguir claramente entre datos observados, propuestas pendientes y
+estados que todavía requieren verificación.
+
+---
+
+## 2. Descripción del proyecto
+
+CaféU es un prototipo de aplicación web para que estudiantes universitarios
+realicen pedidos de una cafetería sin explicar verbalmente los productos al
+personal.
+
+El flujo contempla:
+
+- consultar el menú;
+- filtrar y seleccionar productos;
+- personalizar productos mediante instrucciones especiales;
+- revisar y modificar el pedido;
+- consultar el total;
+- confirmar la compra;
+- visualizar el comprobante y los datos de retiro.
+
+El prototipo fue trabajado inicialmente en APE 4 y APE 5. En el APE 6 se
+evaluó su usabilidad mediante pruebas con usuarios y evaluación heurística.
+
+---
+
+## 3. Objetivos
+
+### Objetivo general
+
+Evaluar la usabilidad del prototipo CaféU mediante los principios de
+**ISO 9241-11**, las **diez heurísticas de Nielsen**, el **pensamiento en voz
+alta** y el cuestionario **SUS**.
 
 ### Objetivos específicos
 
-1. 🔍 Analizar las principales tareas y necesidades de los usuarios.
-2. 📋 Diseñar un protocolo de evaluación con seis tareas reales.
-3. 👥 Aplicar pruebas con tres estudiantes externos al equipo.
-4. ⏱️ Registrar tiempos, éxitos, errores y dificultades.
-5. 😊 Recopilar respuestas mediante el cuestionario SUS.
-6. 🧠 Examinar la interfaz mediante las diez heurísticas de Nielsen.
-7. 🔄 Proponer ajustes fundamentados en los resultados.
-8. 📁 Organizar la documentación y evidencias en GitHub.
+- definir usuarios, tareas y contexto de utilización;
+- preparar instrumentos de observación y consentimiento;
+- aplicar sesiones con participantes externos al equipo;
+- registrar eficacia, eficiencia, errores y satisfacción;
+- inspeccionar el prototipo con las heurísticas de Nielsen;
+- triangular hallazgos heurísticos con evidencias de usuarios;
+- priorizar propuestas de mejora y dejar una trazabilidad clara.
 
 ---
 
-## 🔗 3. Enlaces principales
+## 4. Equipo de trabajo
 
-| Recurso | Enlace |
+| Integrante | GitHub | Responsabilidad principal |
+|---|---|---|
+| Sarco Sailema Viviana Maribel | [@maribelsailema](https://github.com/maribelsailema) | Moderación, documentación, integración y evaluación heurística |
+| Pillapa Tubón Wilson Joseph | [@W1LSONN](https://github.com/W1LSONN) | Observación, sesiones con usuarios y evaluación heurística |
+| Santana Durán Sebastián Israel | [@SebasIsd](https://github.com/SebasIsd) | Soporte técnico, matriz de hallazgos y triangulación |
+| Guachi Aucapiña Alex Fabricio | [@A1EXF6A](https://github.com/A1EXF6A) | Métricas, tiempos, SUS y consolidación cuantitativa |
+
+---
+
+## 5. Métodos y criterios
+
+### 5.1 Prueba con usuarios
+
+Los participantes realizaron tareas representativas del flujo de compra mientras
+expresaban sus decisiones y dificultades mediante el método de pensamiento en
+voz alta.
+
+Las dimensiones analizadas fueron:
+
+| Dimensión | Evidencia registrada |
 |---|---|
-| 🎨 Prototipo interactivo | [Abrir CaféU en Figma](https://www.figma.com/proto/mmnzX5MbN4kv4IhYOqlQR8/cafeU_prototipo?node-id=3-1700&p=f&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A1700) |
-| 💻 Repositorio GitHub | [maribelsailema/APE6](https://github.com/maribelsailema/APE6) |
-| 📘 Plan de evaluación | [Ver documento](Fase1/docs/plan-evaluacion.md) |
-| 📋 Matriz de seis tareas | [Ver matriz](Fase1/evaluacion/matriz-tareas.md) |
-| 🧪 Registros del pilotaje | [Ver participantes](Fase2-Pilotaje/Participantes/) |
-| 🔎 Evaluación heurística individual de Sebastián | [Ver documento](Fase3_4/resultados/heuristica-sebastian.md) |
-| 📊 Matriz consolidada de hallazgos | [Ver matriz](Fase3_4/docs/matriz-hallazgos.md) |
-| 🔺 Triangulación heurística–usuarios | [Ver triangulación](Fase3_4/docs/triangulacion.md) |
-| 🤝 Consolidación y consenso | [Ver proceso](Fase3_4/docs/consolidacion-heuristicas.md) |
+| Eficacia | Tareas completadas correctamente |
+| Eficiencia | Tiempo por tarea |
+| Errores | Críticos y no críticos |
+| Asistencia | Solicitudes o intervenciones del moderador |
+| Satisfacción | Cuestionario SUS |
+| Experiencia | Comentarios y comportamiento observado |
+
+### 5.2 Evaluación heurística
+
+Cada integrante aplicó las diez heurísticas de Nielsen:
+
+1. visibilidad del estado del sistema;
+2. correspondencia con el mundo real;
+3. control y libertad del usuario;
+4. consistencia y estándares;
+5. prevención de errores;
+6. reconocimiento antes que recuerdo;
+7. flexibilidad y eficiencia;
+8. diseño estético y minimalista;
+9. ayuda para reconocer, diagnosticar y recuperarse de errores;
+10. ayuda y documentación.
+
+### 5.3 Consideración metodológica
+
+Los documentos diferencian:
+
+- **observaciones y datos de ejecución**;
+- **comentarios de cierre**;
+- **hallazgos heurísticos**;
+- **riesgos condicionados a una versión del prototipo**;
+- **mejoras propuestas, pero todavía no implementadas**.
 
 ---
 
-## 👥 4. Integrantes del equipo
+## 6. Resumen de las fases
 
-| N.º | Integrante | GitHub | Rol en la evaluación |
-|:---:|---|---|---|
-| 1 | **Sarco Sailema Viviana Maribel** | [@maribelsailema](https://github.com/maribelsailema) | 🎙️ Moderación y documentación |
-| 2 | **Pillapa Tubón Wilson Joseph** | [@W1LSONN](https://github.com/W1LSONN) | 👁️ Observación y registro del pilotaje |
-| 3 | **Santana Durán Sebastián Israel** | [@SebasIsd](https://github.com/SebasIsd) | 🔧 Soporte técnico y evaluación heurística |
-| 4 | **Guachi Aucapiña Alex Fabricio** | [@A1EXF6A](https://github.com/A1EXF6A) | 📊 Métricas y análisis de resultados |
-
-### Responsabilidades
-
-**🎙️ Viviana – Moderadora**
-
-Responsable de presentar las tareas, gestionar el consentimiento
-informado, moderar las sesiones y documentar los ajustes del protocolo.
-
-**👁️ Wilson – Observador**
-
-Responsable de registrar las acciones, dificultades, comentarios
-y comportamientos relevantes durante las pruebas.
-
-**🔧 Sebastián – Soporte técnico**
-
-Responsable de preparar las condiciones de funcionamiento del
-prototipo y contribuir a la evaluación heurística.
-
-**📊 Alex – Responsable de métricas**
-
-Responsable del registro y análisis de los tiempos,
-resultados, errores y respuestas SUS.
+| Fase | Trabajo realizado | Resultado principal |
+|---|---|---|
+| Fase 1 | Planificación, instrumentos y tareas | Protocolo V1 preparado |
+| Fase 2 | Pilotaje con P1, P2 y P3 | Resultados cuantitativos y hallazgos iniciales |
+| Fase 3 | Ajustes del protocolo y evaluación heurística | Evidencia individual, T7 y soporte técnico |
+| Fase 4 | Consolidación y conclusiones finales | Matriz H-01–H-12, triangulación y backlog |
 
 ---
 
-## 🧪 5. Metodología de evaluación
+## 7. Fase 1 – Planificación
 
-La evaluación de CaféU contempla dos métodos complementarios.
+La Fase 1 definió el sistema a evaluar, los usuarios, el contexto de uso,
+las preguntas de evaluación, las tareas, las métricas, el consentimiento
+informado y los instrumentos.
 
-### 🔟 Evaluación heurística
+Se prepararon seis tareas principales relacionadas con:
 
-Inspección del prototipo mediante las diez heurísticas de Nielsen:
-
-1. Visibilidad del estado del sistema.
-2. Correspondencia entre el sistema y el mundo real.
-3. Control y libertad del usuario.
-4. Consistencia y estándares.
-5. Prevención de errores.
-6. Reconocimiento antes que recuerdo.
-7. Flexibilidad y eficiencia de uso.
-8. Diseño estético y minimalista.
-9. Ayuda para reconocer, diagnosticar y recuperarse de errores.
-10. Ayuda y documentación.
-
-### 🗣️ Pensamiento en voz alta
-
-Los participantes realizan tareas mientras explican
-qué están observando, buscando y comprendiendo.
-
-Este método permite identificar dificultades que
-no siempre se reflejan únicamente en los tiempos.
-
-### 📊 Dimensiones de usabilidad
-
-| Dimensión | Indicador |
+| ID | Tarea |
 |---|---|
-| ✅ Eficacia | Tasa de tareas completadas correctamente |
-| ⏱️ Eficiencia | Tiempo utilizado por tarea |
-| ⚠️ Errores | Críticos y no críticos |
-| 🤝 Asistencia | Solicitudes de ayuda |
-| 😊 Satisfacción | Cuestionario SUS |
-| 🔍 Experiencia | Dificultades y comentarios registrados |
+| T1 | Consultar el precio de un café americano |
+| T2 | Filtrar Snacks y seleccionar una galleta de avena |
+| T3 | Personalizar un café con una instrucción especial |
+| T4 | Agregar un sánduche y revisar el pedido |
+| T5 | Eliminar el sánduche y comprobar el total |
+| T6 | Confirmar el pedido y revisar la información de retiro |
 
----
+Una evaluación posterior de consistencia detectó referencias de otro proyecto
+en algunos instrumentos. Estas inconsistencias fueron documentadas y no
+modificaron los resultados originales del pilotaje.
 
-## 📘 6. Fase 1 – Planificación
-
-### 🎯 Propósito
-
-Diseñar los instrumentos necesarios para realizar una
-evaluación de usabilidad del prototipo CaféU.
-
-### Actividades desarrolladas
-
-- Definición del sistema y de sus usuarios.
-- Identificación del contexto de utilización.
-- Formulación de la pregunta de evaluación.
-- Selección de métodos de evaluación.
-- Preparación de seis tareas.
-- Definición de tiempos y criterios de éxito.
-- Elaboración de instrumentos de observación.
-- Preparación del consentimiento informado.
-- Asignación de responsabilidades del equipo.
-- Definición de métricas y cuestionario SUS.
-
-### 📁 Documentación
+### Documentación de Fase 1
 
 | Documento | Ubicación |
 |---|---|
-| 📘 Plan de evaluación | [docs/plan-evaluacion.md](Fase1/docs/plan-evaluacion.md) |
-| 👥 Participantes y roles | [docs/participantes-roles.md](Fase1/docs/participantes-roles.md) |
-| 🔒 Consentimiento informado | [docs/consentimiento-informado.md](Fase1/docs/consentimiento-informado.md) |
-| 📋 Matriz de tareas | [evaluacion/matriz-tareas.md](Fase1/evaluacion/matriz-tareas.md) |
-| 🗣️ Pensamiento en voz alta | [evaluacion/protocolo-pensamiento-voz-alta.md](Fase1/evaluacion/protocolo-pensamiento-voz-alta.md) |
-| 🔍 Evaluación heurística | [evaluacion/evaluacion-heuristica.md](Fase1/evaluacion/evaluacion-heuristica.md) |
-| 📐 Matriz heurística | [evaluacion/matriz-heuristicas.md](Fase1/evaluacion/matriz-heuristicas.md) |
-| 📊 Métricas | [evaluacion/metricas-usabilidad.md](Fase1/evaluacion/metricas-usabilidad.md) |
-| 📝 Cuestionario SUS | [evaluacion/cuestionario-sus.md](Fase1/evaluacion/cuestionario-sus.md) |
-| 👁️ Hoja de observación | [evaluacion/hoja-observacion.md](Fase1/evaluacion/hoja-observacion.md) |
-| ✅ Criterios de validación | [evaluacion/criterios-validacion.md](Fase1/evaluacion/criterios-validacion.md) |
-
-**Nota de control documental:** La revisión posterior identificó
-referencias a otro proyecto y consignas de reservas en algunos
-instrumentos. Estas inconsistencias están documentadas en
-[Verificación de Fase 1](Fase2-Pilotaje/Verificacion_Fase1.md).
+| README de la fase | [Fase1/README.md](Fase1/README.md) |
+| Plan de evaluación | [Fase1/docs/plan-evaluacion.md](Fase1/docs/plan-evaluacion.md) |
+| Participantes y roles | [Fase1/docs/participantes-roles.md](Fase1/docs/participantes-roles.md) |
+| Consentimiento informado | [Fase1/docs/consentimiento-informado.md](Fase1/docs/consentimiento-informado.md) |
+| Matriz de tareas | [Fase1/evaluacion/matriz-tareas.md](Fase1/evaluacion/matriz-tareas.md) |
+| Pensamiento en voz alta | [Fase1/evaluacion/protocolo-pensamiento-voz-alta.md](Fase1/evaluacion/protocolo-pensamiento-voz-alta.md) |
+| Evaluación heurística | [Fase1/evaluacion/evaluacion-heuristica.md](Fase1/evaluacion/evaluacion-heuristica.md) |
+| Matriz heurística | [Fase1/evaluacion/matriz-heuristicas.md](Fase1/evaluacion/matriz-heuristicas.md) |
+| Métricas | [Fase1/evaluacion/metricas-usabilidad.md](Fase1/evaluacion/metricas-usabilidad.md) |
+| Cuestionario SUS | [Fase1/evaluacion/cuestionario-sus.md](Fase1/evaluacion/cuestionario-sus.md) |
+| Hoja de observación | [Fase1/evaluacion/hoja-observacion.md](Fase1/evaluacion/hoja-observacion.md) |
+| Criterios de validación | [Fase1/evaluacion/criterios-validacion.md](Fase1/evaluacion/criterios-validacion.md) |
 
 ---
 
-## 🧪 7. Fase 2 – Pilotaje con usuarios
+## 8. Fase 2 – Pilotaje con usuarios
 
-### 🎯 Propósito
+El pilotaje se realizó con tres estudiantes externos al equipo:
 
-Aplicar el protocolo preparado en la Fase 1 con
-participantes reales para identificar dificultades
-de interacción y proponer ajustes.
-
-### 👤 Participantes
-
-Se realizaron pruebas con tres estudiantes universitarios
-externos al equipo desarrollador.
-
-| Código | Dispositivo | Actividades |
+| Código | Dispositivo | Evidencia |
 |---|---|---|
-| P1 | 📱 Móvil | Seis tareas y cuestionario SUS |
-| P2 | 💻 Computadora portátil | Seis tareas y cuestionario SUS |
-| P3 | 📱 Móvil | Seis tareas y cuestionario SUS |
+| P1 | Smartphone | [Registro P1](Fase2-Pilotaje/Participantes/P1.md) |
+| P2 | Computadora portátil | [Registro P2](Fase2-Pilotaje/Participantes/P2.md) |
+| P3 | Smartphone | [Registro P3](Fase2-Pilotaje/Participantes/P3.md) |
 
-**Fecha de las sesiones:** 16 de noviembre de 2026.
+Los participantes utilizaron códigos anónimos y firmaron el consentimiento
+informado. La documentación consolidada corresponde a las seis tareas originales
+T1–T6.
 
-Se aplicó el consentimiento informado y se utilizaron
-códigos anónimos para documentar los resultados.
-
-### 📋 Seis tareas evaluadas
-
-| ID | Tarea | Resultado esperado |
-|---|---|---|
-| T1 | Consultar el precio de un café americano | USD 1,50 |
-| T2 | Filtrar la categoría Snacks | Galleta de avena, USD 1,25 |
-| T3 | Personalizar un café | Nota "Sin azúcar" |
-| T4 | Agregar un sánduche y revisar el pedido | Total USD 4,25 |
-| T5 | Eliminar el sánduche | Nuevo total USD 1,50 |
-| T6 | Confirmar el pedido | Código, tiempo de espera y modalidad de pago |
-
-Las tareas originales se encuentran en
-[la matriz de Fase 1](Fase1/evaluacion/matriz-tareas.md).
-
----
-
-## 📊 8. Resultados del pilotaje
-
-### ✅ Eficacia
-
-Los tres participantes completaron las seis tareas.
+### Resultados del pilotaje registrado
 
 | Indicador | Resultado |
 |---|---:|
 | Participantes | 3 |
-| Tareas intentadas | 18 |
-| Tareas completadas correctamente | 18 |
-| **Tasa de éxito** | **100 %** |
+| Ejecuciones (18 tareas) | 18 |
+| Completadas correctamente | 18 |
+| Tasa de éxito | 100 % |
 | Errores críticos | 0 |
-| Errores no críticos registrados | 4 |
+| Errores no críticos | 4 |
 | Solicitudes de ayuda | 0 |
+| SUS promedio | 82,5 / 100 |
 
-### ⏱️ Eficiencia
+Las medianas registradas fueron:
 
-| Tarea | P1 | P2 | P3 | Mediana |
-|---|---:|---:|---:|---:|
-| T1 | 34 s | 21 s | 24 s | 24 s |
-| T2 | 28 s | 19 s | 18 s | 19 s |
-| T3 | 52 s | 38 s | 41 s | 41 s |
-| T4 | 48 s | 36 s | 39 s | 39 s |
-| T5 | 31 s | 24 s | 22 s | 24 s |
-| T6 | 42 s | 31 s | 29 s | 31 s |
-| **Total por participante** | **235 s** | **169 s** | **173 s** | **173 s** |
-
-Los tiempos corresponden únicamente a la ejecución
-de las tareas, no a la sesión completa.
-
-Ninguna ejecución superó el tiempo máximo
-establecido en la matriz original.
-
-### 😊 Satisfacción
-
-| Participante | SUS reportado |
+| Tarea | Mediana |
 |---|---:|
-| P1 | 82,5 |
-| P2 | 85,0 |
-| P3 | 80,0 |
-| **Promedio** | **82,5** |
+| T1 | 24 s |
+| T2 | 19 s |
+| T3 | 41 s |
+| T4 | 39 s |
+| T5 | 24 s |
+| T6 | 31 s |
 
-Las puntuaciones provienen de los cuestionarios
-registrados en los documentos individuales.
+Los tiempos corresponden únicamente a la ejecución de las tareas. La puntuación
+SUS es una escala de usabilidad de 0–100, no un porcentaje de éxito.
 
-La redacción utilizada en el pilotaje está
-contextualizada para CaféU. Su relación con el
-instrumento original se documenta entre los
-ajustes metodológicos pendientes.
+### Documentos de Fase 2
 
-### 📚 Fuentes de los resultados
-
-- [📱 P1 – Registro individual](Fase2-Pilotaje/Participantes/P1.md)
-- [💻 P2 – Registro individual](Fase2-Pilotaje/Participantes/P2.md)
-- [📱 P3 – Registro individual](Fase2-Pilotaje/Participantes/P3.md)
-
----
-
-## 🔎 9. Principales hallazgos
-
-| Hallazgo | Evidencia | Mejora propuesta |
-|---|---|---|
-| El acceso inicial al menú puede generar dudas | P1, tarea T1 | Revisar jerarquía visual |
-| La personalización no siempre se reconoce inmediatamente | P1, tarea T3 | Diferenciar Añadir y Personalizar |
-| El carrito puede resultar difícil de localizar | P1, tarea T4 | Mejorar visibilidad del acceso |
-| La eliminación no ofrece deshacer | Comentarios de P2 y P3 | Incorporar recuperación |
-| La señal de actualización del carrito puede reforzarse | Observación P3, tarea T4 | Evaluar retroalimentación más visible |
-
-Estos hallazgos no impidieron completar las tareas
-del pilotaje.
-
-Las mejoras se encuentran en estado de propuesta;
-no se dispone todavía de una nueva prueba que
-demuestre su efecto.
+- [Resumen consolidado de métricas](Fase2-Pilotaje/Resumen_Metricas.md)
+- [Hallazgos preliminares](Fase2-Pilotaje/Hallazgos_Preliminares.md)
+- [Verificación de la Fase 1](Fase2-Pilotaje/Verificacion_Fase1.md)
+- [Evaluación heurística – Viviana](Fase2-Pilotaje/Evaluaciones_Heuristicas/Viviana.md)
+- [Evaluación heurística – Wilson](Fase2-Pilotaje/Evaluaciones_Heuristicas/Wilson.md)
+- [Evaluación heurística – Sebastián](Fase2-Pilotaje/Evaluaciones_Heuristicas/Sebastian.md)
+- [Evaluación heurística – Alex](Fase2-Pilotaje/Evaluaciones_Heuristicas/Alex.md)
+- [Comparación heurística del pilotaje](Fase2-Pilotaje/Evaluaciones_Heuristicas/Comparacion_Heuristicas_Pilotaje.md)
+- [Registro de aportes](Fase2-Pilotaje/Evidencias_Colaboracion/Registro_Aportes.md)
 
 ---
 
-## 🔄 10. Propuestas de mejora del protocolo
+## 9. Fase 3 – Ajustes y evaluación heurística
 
-Después del pilotaje se identificaron oportunidades
-para mejorar los instrumentos de evaluación.
+La Fase 3 preparó el protocolo V2 a partir de los problemas detectados,
+incorporó la cancelación como tarea de refuerzo T7 y verificó el estado técnico
+del prototipo.
 
-Entre las principales decisiones propuestas están:
+Los ajustes documentados incluyen:
 
-1. Corregir las referencias a otro proyecto.
-2. Unificar la hoja de observación con las tareas de CaféU.
-3. Diferenciar errores, vacilaciones y sugerencias.
-4. Registrar la ruta inicial utilizada por cada participante.
-5. Identificar una única versión del cuestionario SUS.
-6. Mantener los tiempos máximos originales.
-7. Corregir la suma total de tiempos máximos a 450 segundos.
-8. Conservar sin modificaciones los resultados originales.
+- corrección de referencias ajenas al proyecto;
+- unificación del cuestionario SUS;
+- adaptación de la hoja de observación a CaféU;
+- reinicio del prototipo antes de cada sesión;
+- registro de dispositivos y viewport;
+- incorporación de la cancelación como tarea pendiente de verificación;
+- control de diferencias entre versiones del artefacto.
 
-### 📄 Documentación del análisis
+Los documentos de Fase 3 dejan explícitamente que algunas observaciones
+dependen de una captura estática o de una versión diferente del prototipo.
+Por ello, no todas las condiciones deben presentarse como defectos ya
+verificados.
 
-- [✅ Verificación de Fase 1](Fase2-Pilotaje/Verificacion_Fase1.md)
-- [🔍 Evaluación heurística de Viviana](Fase2-Pilotaje/Evaluaciones_Heuristicas/Viviana.md)
-- [🔍 Evaluación heurística de Wilson](Fase2-Pilotaje/Evaluaciones_Heuristicas/Wilson.md)
+### Documentación de Fase 3
 
-**Estado:** La versión V2 está planteada como propuesta
-para una próxima aplicación.
-
-La evaluación individual de Viviana debe validarse
-personalmente antes de presentarse como definitiva.
+| Documento | Ubicación |
+|---|---|
+| README de la fase | [Fase3_4/README.md](Fase3_4/README.md) |
+| Protocolo Fase 3 | [Fase3_4/docs/protocolo-fase3.md](Fase3_4/docs/protocolo-fase3.md) |
+| Registro de sesiones | [Fase3_4/docs/registro-sesiones-fase3.md](Fase3_4/docs/registro-sesiones-fase3.md) |
+| Soporte técnico | [Fase3_4/docs/soporte-tecnico-f3.md](Fase3_4/docs/soporte-tecnico-f3.md) |
+| Evidencia con conexiones | [Fase3_4/evidencias/flujo-figma-con-conexiones.png](Fase3_4/evidencias/flujo-figma-con-conexiones.png) |
 
 ---
 
-## 📁 11. Estructura del repositorio
+## 10. Fase 4 – Consolidación y conclusiones
 
-La siguiente organización contempla los archivos
-de Fase 1, los registros publicados de Fase 2
-y los documentos preparados para la Issue #9.
+La Fase 4 reunió las evaluaciones individuales, las métricas y las evidencias
+de usuarios en una matriz única de hallazgos H-01 a H-12.
+
+### Resultados consolidados
+
+| Resultado | Conclusión |
+|---|---|
+| Ejecuciones de las 18 tareas del pilotaje original | 100 % de éxito |
+| Errores críticos | 0 |
+| Errores no críticos | 4 |
+| SUS original consolidado | 82,5 / 100 |
+| Hallazgos confirmados por inspección y usuarios | H-01 a H-05 |
+| Hallazgos detectados solo mediante inspección | H-06 a H-12 |
+| Hallazgos detectados solo por usuarios | 0 |
+
+Los hallazgos principales convergieron en:
+
+1. ubicación poco convencional del acceso al pedido;
+2. retroalimentación insuficiente al añadir productos;
+3. eliminación sin deshacer y control táctil pequeño;
+4. diferencia poco visible entre añadir y personalizar;
+5. competencia visual entre el buscador y el CTA de «Ver Menú».
+
+La severidad todavía requiere ratificación grupal. El backlog mantiene como
+propuestas las mejoras derivadas de estos hallazgos.
+
+### Documentación de Fase 4
+
+| Documento | Ubicación |
+|---|---|
+| Consolidación heurística | [Fase3_4/docs/consolidacion-heuristicas.md](Fase3_4/docs/consolidacion-heuristicas.md) |
+| Matriz de hallazgos | [Fase3_4/docs/matriz-hallazgos.md](Fase3_4/docs/matriz-hallazgos.md) |
+| Triangulación | [Fase3_4/docs/triangulacion.md](Fase3_4/docs/triangulacion.md) |
+| Backlog de mejoras | [Fase3_4/docs/backlog-mejoras.md](Fase3_4/docs/backlog-mejoras.md) |
+| Conclusiones | [Fase3_4/docs/onclusiones.md](Fase3_4/docs/onclusiones.md) |
+
+---
+
+## 11. Propuesta de mejora
+
+| Prioridad | Mejora propuesta |
+|---|---|
+| P1 | Añadir feedback visible al actualizar el carrito |
+| P1 | Incorporar «Deshacer» después de eliminar un producto |
+| P1 | Mostrar el acceso al carrito en la cabecera |
+| P2 | Diferenciar claramente «Añadir» de «Personalizar» |
+| P2 | Ampliar el área táctil de «Eliminar» |
+| P3 | Reforzar la jerarquía de «Ver Menú» frente al buscador |
+| P4 | Diseñar recuperación ante estados vacíos y errores |
+| P4 | Verificar y documentar el recorrido de cancelación |
+
+Las mejoras no se presentan como implementadas ni validadas. Se requiere una
+nueva prueba para comprobar su efecto sobre eficacia, eficiencia y satisfacción.
+
+---
+
+## 12. Consideraciones éticas
+
+- Participación voluntaria.
+- Consentimiento informado.
+- Uso de códigos anónimos P1, P2 y P3.
+- Confidencialidad de datos personales.
+- Uso académico de los registros.
+- Conservación privada de constancias identificables.
+- Evaluación de la interfaz, no de las capacidades personales.
+
+---
+
+## 13. Limitaciones
+
+- El pilotaje consolidado contó con tres participantes.
+- Los resultados no se generalizan a toda la población universitaria.
+- Las mejoras propuestas no fueron implementadas ni sometidas a una nueva prueba.
+- El SUS describe satisfacción percibida en una muestra pequeña.
+- Existe documentación que mezcla o compara diferentes versiones del prototipo.
+- Una captura estática no demuestra funciones dinámicas ni todos los estados.
+- La cancelación, el carrito vacío y los estados de error necesitan verificación interactiva.
+- Las severidades finales deben ratificarse en una sesión grupal y quedar registradas en acta.
+
+---
+
+## 14. Estructura del repositorio
 
 ```text
 APE6/
-│
-├── 📄 README.md
-│
-├── 📂 docs/
-│   ├── plan-evaluacion.md
-│   ├── participantes-roles.md
-│   └── consentimiento-informado.md
-│
-├── 📂 evaluacion/
-│   ├── matriz-tareas.md
-│   ├── protocolo-pensamiento-voz-alta.md
-│   ├── evaluacion-heuristica.md
-│   ├── matriz-heuristicas.md
-│   ├── metricas-usabilidad.md
-│   ├── hoja-observacion.md
-│   ├── cuestionario-sus.md
-│   └── criterios-validacion.md
-│
-├── 📂 Fase2-Pilotaje/
+├── README.md
+├── Fase1/
+│   ├── README.md
+│   ├── docs/
+│   └── evaluacion/
+├── Fase2-Pilotaje/
+│   ├── Participantes/
+│   ├── Evaluaciones_Heuristicas/
+│   ├── Evidencias_Colaboracion/
 │   ├── Verificacion_Fase1.md
-│   ├── Ajustes_Protocolo_V1_V2.md
-│   ├── Ajustes_Protocolo_V1_V2.pdf
-│   │
-│   ├── 📂 Participantes/
-│   │   ├── P1.md
-│   │   ├── P2.md
-│   │   └── P3.md
-│   │
-│   └── 📂 Evaluaciones_Heuristicas/
-│       ├── Viviana.md
-│       └── Wilson.md
-│
-└── 📂 Evidencias_Colaboracion/
-    └── Registro_Aportes.md
+│   ├── Resumen_Metricas.md
+│   └── Hallazgos_Preliminares.md
+└── Fase3_4/
+    ├── README.md
+    ├── docs/
+    ├── evidencias/
+    └── resultados/
 ```
 
-**Importante:** El PDF y los archivos nuevos de la
-Issue #9 aparecerán en la rama principal cuando
-se incorporen mediante el Pull Request.
-
-Los informes y evaluaciones adicionales de los
-otros integrantes se incorporarán cuando sus
-responsables los publiquen.
-
 ---
 
-## 📌 12. Cómo localizar los entregables
-
-### Para consultar la planificación
-
-Abrir `docs/` y `evaluacion/`.
-
-### Para revisar las pruebas realizadas
-
-Abrir `Fase2-Pilotaje/Participantes/` y consultar
-los documentos P1, P2 y P3.
-
-### Para consultar las evaluaciones heurísticas
-
-Abrir `Fase2-Pilotaje/Evaluaciones_Heuristicas/`.
-
-### Para consultar los ajustes
-
-Abrir `Fase2-Pilotaje/Ajustes_Protocolo_V1_V2.md`
-o su versión PDF cuando se encuentre publicada.
-
-### Para verificar la colaboración
-
-Abrir `Evidencias_Colaboracion/Registro_Aportes.md`
-y consultar los commits e issues enlazados.
-
----
-
-## 🔐 13. Consideraciones éticas
-
-La participación en el pilotaje fue voluntaria
-y contó con consentimiento informado.
-
-Se respetaron las siguientes condiciones:
-
-- Uso de códigos anónimos.
-- Ausencia de nombres reales en los resultados públicos.
-- Confidencialidad de los datos personales.
-- Utilización académica de la información.
-- Conservación privada de constancias identificables.
-
-La evaluación se centra en la calidad de
-la interfaz y no en las capacidades personales
-de los estudiantes.
-
----
-
-## ⚠️ 14. Limitaciones
-
-Los resultados corresponden a tres participantes
-y a una versión específica del prototipo.
-
-Por ello:
-
-- No se generalizan los resultados a toda
-  la población universitaria.
-- No se afirma que las mejoras V2 ya fueron aplicadas.
-- No se atribuyen disminuciones de tiempo a
-  cambios que todavía no se evaluaron.
-- Las puntuaciones SUS se presentan según los
-  instrumentos registrados.
-- Las inconsistencias documentales detectadas
-  deben corregirse antes de una nueva aplicación.
-- Los escenarios de error no incluidos en las
-  seis tareas requieren evaluación adicional.
-
----
-
-## 🎓 15. Conclusiones
-
-1. **Eficacia:** Los tres participantes completaron
-   las seis tareas, obteniendo un resultado de
-   18 tareas correctas de 18 intentadas.
-
-2. **Eficiencia:** Todas las tareas se completaron
-   dentro de los tiempos máximos establecidos
-   en la Fase 1.
-
-3. **Satisfacción:** Las puntuaciones SUS reportadas
-   alcanzaron un promedio de 82,5 puntos.
-
-4. **Problemas de interacción:** Se identificaron
-   dudas recuperables relacionadas con el menú,
-   la personalización y la localización del carrito.
-
-5. **Oportunidades de mejora:** Los comentarios de
-   los participantes fundamentan la propuesta
-   de incorporar recuperación después de eliminar
-   productos y mejorar la retroalimentación.
-
-6. **Calidad del protocolo:** La comparación V1 → V2
-   permitió detectar inconsistencias documentales
-   y proponer instrumentos más coherentes para
-   próximas evaluaciones.
-
----
-
-## 🚀 16. Estado del proyecto
+## 15. Estado actual
 
 | Actividad | Estado |
 |---|---|
-| 📘 Planificación de Fase 1 | ✅ Documentada |
-| 🧪 Pilotaje con tres participantes | ✅ Registrado |
-| 📊 Resultados individuales | ✅ Disponibles |
-| 🔄 Propuestas de ajustes V1 → V2 | 📝 Documentadas para revisión |
-| 🔍 Evaluaciones heurísticas del equipo | 🔄 En consolidación |
-| 🛠️ Aplicación de mejoras V2 | ⏳ Pendiente |
-| 🧪 Nueva validación de mejoras | ⏳ Pendiente |
+| Planificación de Fase 1 | Documentada |
+| Pilotaje original de seis tareas | Ejecutado y registrado |
+| Métricas y SUS originales | Documentados |
+| Evaluaciones heurísticas individuales | Publicadas |
+| Consolidados H-01–H-12 | Documentados |
+| Triangulación heurística–usuarios | Documentada |
+| Backlog de mejoras | Priorizado como propuesta |
+| Ratificación grupal de severidades | Pendiente |
+| Verificación interactiva de estados especiales | Pendiente |
+| Implementación de mejoras V2 | Pendiente |
+| Nueva validación posterior a cambios | Pendiente |
 
 ---
 
-### ☕ CaféU
+## 16. Conclusiones
 
-**Proyecto académico de Interacción Humano-Computador**  
-Universidad Técnica de Ambato – FISEI  
-Carrera de Ingeniería de Software
+1. El flujo nominal de CaféU permitió completar todas las tareas del pilotaje
+   original sin errores críticos.
+2. La satisfacción reportada fue alta en la escala SUS utilizada.
+3. Las dificultades se concentraron en descubribilidad, feedback, personalización
+   y recuperación, no en la imposibilidad general de completar el pedido.
+4. La evaluación heurística amplió el alcance hacia cancelación, estados vacíos,
+   errores y diferencias entre versiones.
+5. Las mejoras propuestas tienen trazabilidad, pero aún no se ha demostrado
+   experimentalmente que las modificaciones produzcan mejores resultados.
+6. El proyecto requiere completar la verificación interactiva y la nueva
+   evaluación antes de considerarse cerrado en una segunda iteración.
+
+---
+
+### CaféU – Proyecto académico de Interacción Humano-Computador
+
+Universidad Técnica de Ambato · FISEI · Carrera de Ingeniería de Software
