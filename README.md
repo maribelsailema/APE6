@@ -64,10 +64,13 @@ heurísticas de Nielsen y el pensamiento en voz alta.
 |---|---|
 | 🎨 Prototipo interactivo | [Abrir CaféU en Figma](https://www.figma.com/proto/mmnzX5MbN4kv4IhYOqlQR8/cafeU_prototipo?node-id=3-1700&p=f&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A1700) |
 | 💻 Repositorio GitHub | [maribelsailema/APE6](https://github.com/maribelsailema/APE6) |
-| 📘 Plan de evaluación | [Ver documento](docs/plan-evaluacion.md) |
-| 📋 Matriz de seis tareas | [Ver matriz](evaluacion/matriz-tareas.md) |
+| 📘 Plan de evaluación | [Ver documento](Fase1/docs/plan-evaluacion.md) |
+| 📋 Matriz de seis tareas | [Ver matriz](Fase1/evaluacion/matriz-tareas.md) |
 | 🧪 Registros del pilotaje | [Ver participantes](Fase2-Pilotaje/Participantes/) |
-| 🔄 Propuestas de mejora V1 → V2 | [Ver ajustes](Fase2-Pilotaje/Ajustes_Protocolo_V1_V2.md) |
+| 🔎 Evaluación heurística individual de Sebastián | [Ver documento](Fase3_4/resultados/heuristica-sebastian.md) |
+| 📊 Matriz consolidada de hallazgos | [Ver matriz](Fase3_4/docs/matriz-hallazgos.md) |
+| 🔺 Triangulación heurística–usuarios | [Ver triangulación](Fase3_4/docs/triangulacion.md) |
+| 🤝 Consolidación y consenso | [Ver proceso](Fase3_4/docs/consolidacion-heuristicas.md) |
 
 ---
 
@@ -168,17 +171,17 @@ evaluación de usabilidad del prototipo CaféU.
 
 | Documento | Ubicación |
 |---|---|
-| 📘 Plan de evaluación | [docs/plan-evaluacion.md](docs/plan-evaluacion.md) |
-| 👥 Participantes y roles | [docs/participantes-roles.md](docs/participantes-roles.md) |
-| 🔒 Consentimiento informado | [docs/consentimiento-informado.md](docs/consentimiento-informado.md) |
-| 📋 Matriz de tareas | [evaluacion/matriz-tareas.md](evaluacion/matriz-tareas.md) |
-| 🗣️ Pensamiento en voz alta | [evaluacion/protocolo-pensamiento-voz-alta.md](evaluacion/protocolo-pensamiento-voz-alta.md) |
-| 🔍 Evaluación heurística | [evaluacion/evaluacion-heuristica.md](evaluacion/evaluacion-heuristica.md) |
-| 📐 Matriz heurística | [evaluacion/matriz-heuristicas.md](evaluacion/matriz-heuristicas.md) |
-| 📊 Métricas | [evaluacion/metricas-usabilidad.md](evaluacion/metricas-usabilidad.md) |
-| 📝 Cuestionario SUS | [evaluacion/cuestionario-sus.md](evaluacion/cuestionario-sus.md) |
-| 👁️ Hoja de observación | [evaluacion/hoja-observacion.md](evaluacion/hoja-observacion.md) |
-| ✅ Criterios de validación | [evaluacion/criterios-validacion.md](evaluacion/criterios-validacion.md) |
+| 📘 Plan de evaluación | [docs/plan-evaluacion.md](Fase1/docs/plan-evaluacion.md) |
+| 👥 Participantes y roles | [docs/participantes-roles.md](Fase1/docs/participantes-roles.md) |
+| 🔒 Consentimiento informado | [docs/consentimiento-informado.md](Fase1/docs/consentimiento-informado.md) |
+| 📋 Matriz de tareas | [evaluacion/matriz-tareas.md](Fase1/evaluacion/matriz-tareas.md) |
+| 🗣️ Pensamiento en voz alta | [evaluacion/protocolo-pensamiento-voz-alta.md](Fase1/evaluacion/protocolo-pensamiento-voz-alta.md) |
+| 🔍 Evaluación heurística | [evaluacion/evaluacion-heuristica.md](Fase1/evaluacion/evaluacion-heuristica.md) |
+| 📐 Matriz heurística | [evaluacion/matriz-heuristicas.md](Fase1/evaluacion/matriz-heuristicas.md) |
+| 📊 Métricas | [evaluacion/metricas-usabilidad.md](Fase1/evaluacion/metricas-usabilidad.md) |
+| 📝 Cuestionario SUS | [evaluacion/cuestionario-sus.md](Fase1/evaluacion/cuestionario-sus.md) |
+| 👁️ Hoja de observación | [evaluacion/hoja-observacion.md](Fase1/evaluacion/hoja-observacion.md) |
+| ✅ Criterios de validación | [evaluacion/criterios-validacion.md](Fase1/evaluacion/criterios-validacion.md) |
 
 **Nota de control documental:** La revisión posterior identificó
 referencias a otro proyecto y consignas de reservas en algunos
@@ -223,7 +226,7 @@ códigos anónimos para documentar los resultados.
 | T6 | Confirmar el pedido | Código, tiempo de espera y modalidad de pago |
 
 Las tareas originales se encuentran en
-[la matriz de Fase 1](evaluacion/matriz-tareas.md).
+[la matriz de Fase 1](Fase1/evaluacion/matriz-tareas.md).
 
 ---
 
@@ -324,7 +327,6 @@ Entre las principales decisiones propuestas están:
 ### 📄 Documentación del análisis
 
 - [✅ Verificación de Fase 1](Fase2-Pilotaje/Verificacion_Fase1.md)
-- [🔄 Ajustes del protocolo V1 → V2](Fase2-Pilotaje/Ajustes_Protocolo_V1_V2.md)
 - [🔍 Evaluación heurística de Viviana](Fase2-Pilotaje/Evaluaciones_Heuristicas/Viviana.md)
 - [🔍 Evaluación heurística de Wilson](Fase2-Pilotaje/Evaluaciones_Heuristicas/Wilson.md)
 
